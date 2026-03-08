@@ -27,8 +27,18 @@ ul {
 a {
   font-size: 22px;
   background: white;
-  margin: 10px;
+  margin: 15px;
   /* this removes the line under the links */
   text-decoration: none;
 
+}
+
+/* creates the automatic and adjusting margins to push to right and left links to the end */
+/* and its is as far while paying attention to other padding and margin rules in place */
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
 }
