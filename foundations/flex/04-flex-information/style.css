@@ -19,12 +19,16 @@ img {
   display:flex;
   background-color: beige;
   align-items: center;
+  justify-content: center;
   gap: 52px;
 
 }
 
 .info {
-  justify-content: center;
+  display: flex;
+  /* flex-direction column puts all the flex items associated in a column for each repetition of it */
+  flex-direction: column;
+  align-items: center;
 }
 /* do not edit this footer */
 .footer {
