@@ -35,6 +35,13 @@ body {
   justify-content: center;
 }
 
+.warning {
+  /* controls how much things shrink */
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1 ;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
