@@ -16,6 +16,8 @@ body {
 }
 
 .modal {
+  display: flex;
+  flex-direction: column;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -23,6 +25,7 @@ body {
 }
 
 .icon {
+  display: flex;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -31,15 +34,16 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
 }
+
 
 .warning {
   /* controls how much things shrink */
   display: flex;
-  flex-direction: column;
-  flex-shrink: 1 ;
+  background-color: beige;
+
 }
 
 .close-button {
