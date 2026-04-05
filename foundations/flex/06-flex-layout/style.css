@@ -43,6 +43,12 @@ input {
 
 
 /* remove underlining from links */
+.all {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -71,5 +77,6 @@ ul {
   justify-content: center;
   gap: 7px;
   flex: 1;
+
 
 }
