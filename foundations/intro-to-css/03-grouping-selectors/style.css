@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+.press1, .press2 {
+font-size: 28px;
+font-family: 'Helvetica', 'Times New Roman', 'sans-serif'
+
+}
+
+.press1 {
+    background-color: black;
+    color: white;
+}
+.press2 {
+    background-color: yellow;
+}
